@@ -1,6 +1,6 @@
+q
 add ~/music/
 a
-q
 set output_plugin=pulse
 r
 live-filter 
