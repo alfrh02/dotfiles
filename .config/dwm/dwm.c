@@ -714,6 +714,20 @@ drawbar(Monitor *m)
 	char ctmp;
 	Client *c;
 
+	int correction = 0;
+
+	int numOfColours = 9;
+
+//	for (i = 0; i < numOfColours; i++)
+//	{
+//		correction += (TEXTW("A") - lrpad);
+//	}
+	
+	for ( ; *ts != '\0' ; ts++)
+		if (*ts <= LENGTH(colors))
+			correction += TEXTW("A") - lrpad;
+	ts = stext;
+
 	if (!m->showbar)
 		return;
 
@@ -725,7 +739,7 @@ drawbar(Monitor *m)
 			if ((unsigned int)*ts > LENGTH(colors)) { ts++; continue ; }
 			ctmp = *ts;
 			*ts = '\0';
-			drw_text(drw, m->ww - tw + tx, 0, tw - tx, bh, 0, tp, 0);
+			drw_text(drw, m->ww - tw + tx + correction, 0, tw - tx - correction, bh, 0, tp, 0);
 			tx += TEXTW(tp) -lrpad;
 			if (ctmp == '\0') { break; }
 			drw_setscheme(drw, scheme[(unsigned int)(ctmp-1)]);
@@ -756,12 +770,12 @@ drawbar(Monitor *m)
 	if ((w = m->ww - tw - x) > bh) {
 		if (m->sel) {
 			drw_setscheme(drw, scheme[m == selmon ? SchemeSel : SchemeNorm]);
-			drw_text(drw, x, 0, w, bh, lrpad / 2, m->sel->name, 0);
+			drw_text(drw, x, 0, w + correction, bh, lrpad / 2, m->sel->name, 0);
 			if (m->sel->isfloating)
 				drw_rect(drw, x + boxs, boxs, boxw, boxw, m->sel->isfixed, 0);
 		} else {
 			drw_setscheme(drw, scheme[SchemeNorm]);
-			drw_rect(drw, x, 0, w, bh, 1, 1);
+			drw_rect(drw, x, 0, w + correction, bh, 1, 1);
 		}
 	}
 	drw_map(drw, m->barwin, 0, 0, m->ww, bh);

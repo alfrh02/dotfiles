@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Terminus:size=8:antialias=false";
+static char *font = "Sweeterminus.Icons:size=8:antialias=false";
 static int borderpx = 2;
 
 /*
