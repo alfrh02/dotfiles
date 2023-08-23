@@ -13,12 +13,12 @@
 date_format="%a %d %b %H:%M:%S"
 date_cmd=$(date +"$date_format")
 date_get() {
-	echo -e "É ${date_cmd} "
+	echo -e "\x03É \x02${date_cmd} "
 }
 
 ram_cmd=$(free -m | awk '/^Mem:/ {print $3 "/" $2 " MB"}')
 ram_get() {
-	echo -e "Æ ${ram_cmd} "
+	echo -e "\x04Æ \x02${ram_cmd} "
 }
 
 artist=$(playerctl metadata artist)
@@ -35,9 +35,9 @@ mpris_get() {
 	if [[ "$artist" == "" ]]; then # hide if not playing anything
 		echo ""
 	elif [[ "$album" == "" ]]; then # hide empty brackets if no album metadata
-		echo -e "${stat} ${artist} - ${title} " # ${separator}"
+		echo -e "\x06à \x03${stat} \x02${artist} - ${title} " # ${separator}"
 	else
-		echo -e "${stat} ${artist} - ${title} (${album}) " # ${separator}"
+		echo -e "\x06à \x03${stat} \x02${artist} - ${title} \x01(${album}) " # ${separator}"
 	fi
 }
 
@@ -50,7 +50,7 @@ volume_level=$(pactl get-sink-volume 1 | awk '/^Volume/ {print $7 "dB, " $5}')
 audio_get() {
 
 	if jack_enabled; then
-		echo -e "Â JACK is ON "
+		echo -e "\x07Â \x03JACK is ON "
 	else
 		symbol="í" # default, loud symbol
 		if [[ "$volume_level" == "-infdB, 0%" ]]; then 
@@ -59,7 +59,7 @@ audio_get() {
 			symbol="ì" # quieter symbol
 		fi
 		
-		echo -e "${symbol} ${volume_level} "
+		echo -e "\x07${symbol} \x02${volume_level} "
 	fi
 }
 
@@ -72,16 +72,16 @@ weather_get()
 #		weather=$(echo ${weather_og} | awk '{print $3 " " $4 " " $5}')
 #	fi
 	
+	echo -e "\x03Ò \x05${weather::-1} " # removes final char (a comma)
 	
 	if [[ ${weather_fl} != "+" ]] || [[ ${weather_fl} != "-" ]]; then
 		weather=$(echo ${weather_og} | awk '{print $3 " " $4 " " $5}')
+		return
 	fi
-	
-	echo -e "\x02Ò ${weather::-1} " # removes final char (a comma)
 }
 
 arch_get() {
-	echo -e "¹"
+	echo -e "\x05¹"
 }
 
 xsetroot -name "$(weather_get)$(audio_get)$(mpris_get)$(ram_get)$(date_get)$(arch_get)"

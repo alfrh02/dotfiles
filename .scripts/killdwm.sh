@@ -1,2 +1,2 @@
-killall $(ps -ef | grep "~/.scripts/dwmstatus-loop.sh" | awk '{print $2}')
+kill $(ps -ef | grep "dwmstatus-loop.sh" | awk '{print $2}')
 killall dwm
