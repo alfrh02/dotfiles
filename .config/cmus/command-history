@@ -1,0 +1,33 @@
+add ~/music/
+a
+q
+set output_plugin=pulse
+r
+live-filter 
+a ~/music
+clear
+add ~/music
+add /home/alfr/music/
+add /home/alfr/music
+set output_plugin=jack
+set output_plugin=alsa
+set output_plugin
+set output-plugin
+set mixer.alsa.device=default
+set dsp.alsa.device=default
+set dsp.ao.driver
+set dps.ao.driver
+set mixer.alsa.channel
+set dsp.alsa.device
+dps.alsa.device
+mixer.alsa.device=hw:1
+set status_display_program=cmusfm
+set output_plugin=ao
+set output_plugin=pulseaudio
+a ~/music/**
+h
+stop
+pause
+p
+add soundbites
+add soundbites/*
