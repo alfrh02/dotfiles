@@ -7,6 +7,7 @@
 # 5 - cyan
 # 6 - yellow
 # 7 - magenta
+# 8 - hot red
 
 # use fontforge to find terminus's icons
 
@@ -18,7 +19,7 @@ date_get() {
 
 ram_cmd=$(free -m | awk '/^Mem:/ {print $3 "/" $2 " MB"}')
 ram_get() {
-	echo -e "\x04Æ \x02${ram_cmd} "
+	echo -e "\x04Æ \x07${ram_cmd} "
 }
 
 artist=$(playerctl metadata artist)
@@ -71,7 +72,7 @@ weather_get()
 }
 
 arch_get() {
-	echo -e "\x05¹"
+	echo -e "\x05¹ "
 }
 
 xsetroot -name "$(weather_get)$(audio_get)$(mpris_get)$(ram_get)$(date_get)$(arch_get)"

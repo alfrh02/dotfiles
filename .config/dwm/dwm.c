@@ -714,15 +714,8 @@ drawbar(Monitor *m)
 	char ctmp;
 	Client *c;
 
-	int correction = 0;
-
-	int numOfColours = 9;
-
-//	for (i = 0; i < numOfColours; i++)
-//	{
-//		correction += (TEXTW("A") - lrpad);
-//	}
-	
+	// `correction` is used to offset the statusbar to correct for gaps left by \x0* colours
+	int correction = 0; 
 	for ( ; *ts != '\0' ; ts++)
 		if (*ts <= LENGTH(colors))
 			correction += TEXTW("A") - lrpad;

@@ -17,6 +17,7 @@ static const char col_green[]       = "#479663";
 static const char col_cyan[]        = "#53A6A6";
 static const char col_yellow[]      = "#FBB600";
 static const char col_magenta[]     = "#7E62B3";
+static const char col_hotred[]      = "#FF0000";
 
 static const char *colors[][3]      = {
        /* fg           bg            border     */
@@ -27,6 +28,7 @@ static const char *colors[][3]      = {
 	{ col_cyan,    col_black,    col_border }, // cyan - 5
 	{ col_yellow,  col_black,    col_border }, // yellow - 6
 	{ col_magenta, col_black,    col_border }, // magenta - 7
+	{ col_hotred,  col_black,    col_border }, // hot red - 8
 };
 
 /* tagging */
@@ -83,7 +85,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_s,      spawn,          {.v = sscmd } }, // screengrab
 	{ MODKEY,                       XK_r,      spawn,          {.v = dmenucmd } }, // run dmenu
 	{ MODKEY,                       XK_t,      spawn,          {.v = termcmd } }, // run terminal
-     // { MODKEY,                       XK_b,      togglebar,      {0} }, // toggle bar
+        { MODKEY,                       XK_b,      togglebar,      {0} }, // toggle bar
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
@@ -91,11 +93,11 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} }, // reduce client size (tiling)
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} }, // increase client size (tiling)
 	{ MODKEY,                       XK_Return, zoom,           {0} },
-     // { MODKEY,                       XK_Tab,    view,           {0} },
+	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,                       XK_q,      killclient,     {0} }, // kill focused client
 	{ MODKEY,                       XK_p,      setlayout,      {.v = &layouts[0]} }, // set to tiling
-     // { MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} }, 
-     // { MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
+        { MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} }, 
+        { MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_f,      togglefloating, {0} }, // toggle client floating
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } }, // view every tag at once
