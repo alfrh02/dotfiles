@@ -63,21 +63,11 @@ audio_get() {
 	fi
 }
 
-weather_og=$(curl -s v2.wttr.in/london | grep "Weather:")
-weather=$(echo ${weather_og} | awk '{print $3 " " $4}')
-weather_fl=$(echo ${weather} | awk '{print $2}' | cut -c1)
+weather=$(curl -s v2.wttr.in/london | grep "Weather:" | cut -d ' ' -f 5-)
+IFS=',' read -ra weather_arr <<< "$weather"
 weather_get()
 {
-#	if [[ $(echo ${weather} | awk '{print $1}') == "Partly"  ]] || [[ $(echo ${weather} | awk '{print $1}') == "Haze," ]] ; then
-#		weather=$(echo ${weather_og} | awk '{print $3 " " $4 " " $5}')
-#	fi
-	
-	echo -e "\x03Ò \x05${weather::-1} " # removes final char (a comma)
-	
-	if [[ ${weather_fl} != "+" ]] || [[ ${weather_fl} != "-" ]]; then
-		weather=$(echo ${weather_og} | awk '{print $3 " " $4 " " $5}')
-		return
-	fi
+	echo -e "\x03Ò \x05${weather_arr[0]}, ${weather_arr[1]} " 
 }
 
 arch_get() {

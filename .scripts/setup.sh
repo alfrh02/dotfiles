@@ -1,4 +1,4 @@
-# sudo pacman -Syu dmenu feh filezilla flameshot git vim renoise neofetch obsidian thunar cmatrix firefox discord spotify-launcher steam pulseaudio jack picom audacity blender gimp htop cmus playerctl pulseaudio-alsa pulseaudio-bluetooth dunst ly
+sudo pacman -Syu dmenu feh filezilla flameshot git vim renoise neofetch obsidian thunar cmatrix firefox discord spotify-launcher steam pulseaudio jack picom audacity blender gimp htop cmus playerctl pulseaudio-alsa pulseaudio-bluetooth dunst ly
 
 ### misc aur projects
 
