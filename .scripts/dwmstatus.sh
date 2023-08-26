@@ -49,7 +49,7 @@ jack_enabled() {
 # this is dependent on what device youre using, your device might have a different sink number
 volume_level=$(pactl get-sink-volume 1 | awk '/^Volume/ {print $7 "dB, " $5}') 
 audio_get() {
-
+ 
 	if jack_enabled; then
 		echo -e "\x07Â \x03JACK is ON "
 	else
@@ -64,11 +64,11 @@ audio_get() {
 	fi
 }
 
-weather=$(curl -s v2.wttr.in/london | grep "Weather:" | cut -d ' ' -f 5-)
+weather=$(curl -s v2.wttr.in/51.47,-0.04 | grep "Weather:" | cut -d ' ' -f 4-)
 IFS=',' read -ra weather_arr <<< "$weather"
 weather_get()
 {
-	echo -e "\x03Ò \x05${weather_arr[0]}, ${weather_arr[1]} " 
+	echo -e "\x03Ò \x05${weather_arr[0]},${weather_arr[1]} " 
 }
 
 arch_get() {
