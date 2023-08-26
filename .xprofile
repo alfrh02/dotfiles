@@ -1,0 +1,8 @@
+#!/bin/sh
+xrandr --output "DP-0" --mode 1920x1080 --rate 144 --right-of "HDMI-0" --primary
+xinput set-prop 9 296 0, 1
+
+feh --bg-scale /home/alfr/pictures/wallpapers/pinkbluehills.png
+
+picom &
+exec ~/.scripts/dwmstatus-loop.sh &
