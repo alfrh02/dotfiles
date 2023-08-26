@@ -10,6 +10,10 @@ alias c="clear"
 alias s="sudo pacman -S"
 alias v="nvim"
 alias m="makepkg -Si"
-alias ls="ls --color=auto"
 alias l="ls --color=auto"
 alias cl="clear; ls --color=auto"
+alias yta="yt-dlp -x --audio-format wav"
+
+# redos
+alias ls="ls --color=auto --group-directories-first"
+alias rm="rm -v"

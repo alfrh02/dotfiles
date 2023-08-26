@@ -74,7 +74,7 @@ static const char *jackcmd[] = { "bash", "/home/alfr/.scripts/jack_checker.sh" }
 static const char *picomcmd[] = { "bash", "/home/alfr/.scripts/picom_checker.sh" };
 static const char *sscmd[] = { "bash", "/home/alfr/.scripts/scrotclipboard.sh" };
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray, "-nf", col_white, "-sb", col_black, "-sf", col_red, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_black, "-nf", col_white, "-sb", col_black, "-sf", col_red, NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
