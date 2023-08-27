@@ -51,7 +51,7 @@ volume_level=$(pactl get-sink-volume 1 | awk '/^Volume/ {print $7 "dB, " $5}')
 audio_get() {
  
 	if jack_enabled; then
-		echo -e "\x07Â \x03JACK is ON "
+		echo -e "\x07Â \x08JACK is ON "
 	else
 		symbol="í" # default, loud symbol
 		if [[ "$volume_level" == "-infdB, 0%" ]]; then 

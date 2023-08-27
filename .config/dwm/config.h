@@ -8,10 +8,10 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Misc Terminusmodx.Icons:antialias=false:size=8" }; // { "BigBlue Terminal 437TT:antialias=true:size=8" };
 static const char dmenufont[]       = "Terminus:antialias=false:size=8";
 
-static const char col_black[]       = "#121212";
-static const char col_border[]      = "#212121";
-static const char col_white[]       = "#696969";
-static const char col_gray[]        = "#E0E0E0";
+static const char col_primary[]     = "#121212"; // black
+static const char col_secondary[]   = "#E0E0E0"; // white
+static const char col_border[]      = "#212121"; // dark-grey
+static const char col_grey[]        = "#696969"; // light-grey
 static const char col_red[]         = "#CF4F88";
 static const char col_green[]       = "#479663";
 static const char col_cyan[]        = "#53A6A6";
@@ -20,19 +20,19 @@ static const char col_magenta[]     = "#7E62B3";
 static const char col_hotred[]      = "#FF0000";
 
 static const char *colors[][3]      = {
-       /* fg           bg            border     */
-	{ col_white,   col_black,    col_border }, // default - 1
-	{ col_gray,    col_black,    col_white  }, // selected - 2
-	{ col_red,     col_black,    col_border }, // red - 3
-	{ col_green,   col_black,    col_border }, // green - 4
-	{ col_cyan,    col_black,    col_border }, // cyan - 5
-	{ col_yellow,  col_black,    col_border }, // yellow - 6
-	{ col_magenta, col_black,    col_border }, // magenta - 7
-	{ col_hotred,  col_black,    col_border }, // hot red - 8
+       /* fg             bg              border     */
+	{ col_grey,      col_primary,    col_border }, // default - 1
+	{ col_secondary, col_primary,    col_grey   }, // selected - 2
+	{ col_red,       col_primary,    col_border }, // red - 3
+	{ col_green,     col_primary,    col_border }, // green - 4
+	{ col_cyan,      col_primary,    col_border }, // cyan - 5
+	{ col_yellow,    col_primary,    col_border }, // yellow - 6
+	{ col_magenta,   col_primary,    col_border }, // magenta - 7
+	{ col_hotred,    col_primary,    col_border }, // hot red - 8
 };
 
 /* tagging */
-static const char *tags[] = { "Ñ www", "½ oth", "Ï irc", "♫ mus", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "Ñ www", "½ oth", "Ï irc", "♫ mus", "³ 5", "¢ 6", "µ 7", "ð 8", "ß 9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -41,6 +41,7 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
+	{ "sxiv",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
@@ -69,13 +70,14 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
-static const char *startcmd[] = { "bash", "/home/alfr/.scripts/startup.sh" };
-static const char *jackcmd[] = { "bash", "/home/alfr/.scripts/jack_checker.sh" };
-static const char *picomcmd[] = { "bash", "/home/alfr/.scripts/picom_checker.sh" };
-static const char *sscmd[] = { "bash", "/home/alfr/.scripts/scrotclipboard.sh" };
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_black, "-nf", col_white, "-sb", col_black, "-sf", col_red, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_secondary, "-nf", col_primary, "-sb", col_primary, "-sf", col_red, NULL };
 static const char *termcmd[]  = { "st", NULL };
+
+static const char *startcmd[] = { "bash", "/home/alfr/.scripts/startup.sh"        };
+static const char *jackcmd[]  = { "bash", "/home/alfr/.scripts/jack_checker.sh"   };
+static const char *picomcmd[] = { "bash", "/home/alfr/.scripts/picom_checker.sh"  };
+static const char *sscmd[]    = { "bash", "/home/alfr/.scripts/scrotclipboard.sh" };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
