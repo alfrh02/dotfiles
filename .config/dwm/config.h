@@ -32,7 +32,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "Ñ www", "½ oth", "Ï irc", "♫ mus", "³ 5", "¢ 6", "µ 7", "ð 8", "ß 9" };
+static const char *tags[] = { "Ñ www", "½ oth", "Ï irc", "♫ mus", "µ z", "³ x", "¢ c", "ð v", "ß 9" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -117,6 +117,10 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
+	TAGKEYS(                        XK_z,                      4)
+	TAGKEYS(                        XK_x,                      5)
+	TAGKEYS(                        XK_c,                      6)
+	TAGKEYS(                        XK_v,                      7)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
 

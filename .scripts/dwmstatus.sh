@@ -68,7 +68,7 @@ weather=$(curl -s v2.wttr.in/51.47,-0.04 | grep "Weather:" | cut -d ' ' -f 4-)
 IFS=',' read -ra weather_arr <<< "$weather"
 weather_get()
 {
-	echo -e "\x03Ò \x05${weather_arr[0]},${weather_arr[1]} " 
+	echo -e "\x03Ò\x05${weather_arr[0]},${weather_arr[1]} " 
 }
 
 arch_get() {
