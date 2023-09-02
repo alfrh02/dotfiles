@@ -17,5 +17,6 @@ alias rec="gpu-screen-recorder"
 alias yta="yt-dlp -x --audio-format wav"
 
 # redos
+alias cp="cp -rv"
 alias ls="ls --color=auto --group-directories-first"
 alias rm="rm -v"
