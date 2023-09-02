@@ -17,7 +17,7 @@ static const char col_green[]       = "#479663";
 static const char col_cyan[]        = "#53A6A6";
 static const char col_yellow[]      = "#FBB600";
 static const char col_magenta[]     = "#7E62B3";
-static const char col_hotred[]      = "#FF0000";
+static const char col_hotred[]      = "#FF2233";
 
 static const char *colors[][3]      = {
        /* fg             bg              border     */
@@ -32,7 +32,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "Ñ www", "½ oth", "Ï irc", "♫ mus", "µ z", "³ x", "¢ c", "ð v", "ß 9" };
+static const char *tags[] = { "Ñ www", "½ two", "Ï irc", "♫ mus", "ß fve", "µ z", "³ x", "¢ c", "ð v" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -117,10 +117,10 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
-	TAGKEYS(                        XK_z,                      4)
-	TAGKEYS(                        XK_x,                      5)
-	TAGKEYS(                        XK_c,                      6)
-	TAGKEYS(                        XK_v,                      7)
+	TAGKEYS(                        XK_z,                      5)
+	TAGKEYS(                        XK_x,                      6)
+	TAGKEYS(                        XK_c,                      7)
+	TAGKEYS(                        XK_v,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
 

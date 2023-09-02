@@ -15,7 +15,7 @@ alias cl="clear; ls --color=auto"
 alias py="python"
 alias rec="gpu-screen-recorder"
 alias yta="yt-dlp -x --audio-format wav"
-
+other
 # redos
 alias cp="cp -rv"
 alias ls="ls --color=auto --group-directories-first"
