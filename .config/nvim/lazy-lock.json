@@ -1,0 +1,5 @@
+{
+  "calendar": { "branch": "master", "commit": "66e6d0955efb6beb68912dce3ff484e8805d975c" },
+  "catppuccin": { "branch": "main", "commit": "3d9a5ed556e289bce6c1fb0af89ec838360641b2" },
+  "lazy.nvim": { "branch": "main", "commit": "2a9354c7d2368d78cbd5575a51a2af5bd8a6ad01" }
+}
