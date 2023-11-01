@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Yume Dark",
+    "workbench.startupEditor": "none",
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "onFocusChange",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off"
+}
