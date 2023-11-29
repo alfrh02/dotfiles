@@ -1,0 +1,7 @@
+[
+    {
+        "key": "ctrl+w ctrl+w",
+        "command": "workbench.action.quickSwitchWindow"
+    }
+
+]

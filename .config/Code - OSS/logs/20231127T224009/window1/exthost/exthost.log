@@ -1,0 +1,18 @@
+2023-11-27 22:40:10.330 [info] Extension host with pid 1222217 started
+2023-11-27 22:40:10.330 [info] Skipping acquiring lock for /home/alfr/.config/Code - OSS/User/workspaceStorage/41b5a039553b45967f988d8805279c5a.
+2023-11-27 22:40:10.376 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-11-27 22:40:10.381 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-27 22:40:10.577 [info] Extension host with pid 1222276 started
+2023-11-27 22:40:10.577 [info] Skipping acquiring lock for /home/alfr/.config/Code - OSS/User/workspaceStorage/41b5a039553b45967f988d8805279c5a.
+2023-11-27 22:40:10.589 [info] Eager extensions activated
+2023-11-27 22:40:10.844 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2023-11-27 22:40:11.404 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-27 22:40:11.405 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-27 22:40:11.439 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-27 22:40:11.472 [info] Eager extensions activated
+2023-11-27 22:40:11.480 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-27 22:40:11.481 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-27 22:40:11.493 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-11-27 22:40:11.496 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-11-27 22:40:11.503 [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces, startup: false, activationEvent: 'onStartupFinished'
+2023-11-27 22:40:11.510 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'

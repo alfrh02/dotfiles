@@ -1,0 +1,69 @@
+[
+    {
+      "key": "ctrl+p",
+      "command": "workbench.action.quickOpen"
+    },
+    {
+      "key": "ctrl+shift+p",
+      "command": "workbench.action.showCommands"
+    },
+    {
+      "key": "ctrl+w",
+      "command": "workbench.action.switchWindow",
+      "when": "!neovim.init"
+    },
+    {
+      "key": "ctrl+w",
+      "command": "-workbench.action.switchWindow"
+    },
+    {
+      "key": "ctrl+w l",
+      "when": "!inputFocus && sideBarFocus",
+      "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+      "key": "space e",
+      "when": "!inputFocus",
+      "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+      "key": "[ c",
+      "when": "neovim.init && neovim.mode == normal && editorTextFocus",
+      "command": "workbench.action.editor.previousChange"
+    },
+    {
+      "key": "] c",
+      "when": "neovim.init && neovim.mode == normal && editorTextFocus",
+      "command": "workbench.action.editor.nextChange"
+    },
+    {
+      "key": "g g",
+      "when": "!inputFocus && filesExplorerFocus",
+      "command": "list.focusFirst"
+    },
+    {
+      "key": "shift+g",
+      "when": "!inputFocus && filesExplorerFocus",
+      "command": "list.focusLast"
+    },
+    {
+      "key": "h",
+      "when": "!inputFocus && filesExplorerFocus",
+      "command": "list.collapse"
+    },
+    {
+      "key": "j",
+      "when": "!inputFocus && listFocus",
+      "command": "list.focusDown"
+    },
+    {
+      "key": "k",
+      "when": "!inputFocus && listFocus",
+      "command": "list.focusUp"
+    },
+    {
+      "key": "l",
+      "when": "!inputFocus && filesExplorerFocus",
+      "command": "list.select"
+    }
+]

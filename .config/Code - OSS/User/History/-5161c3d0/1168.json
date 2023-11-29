@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Material Theme Darker",
+    "workbench.startupEditor": "none",
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "onFocusChange",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    }
+}

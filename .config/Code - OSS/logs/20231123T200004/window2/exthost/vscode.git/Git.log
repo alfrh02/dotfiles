@@ -1,0 +1,51 @@
+2023-11-23 20:00:14.765 [info] Log level: Info
+2023-11-23 20:00:14.765 [info] Validating found git in: "git"
+2023-11-23 20:00:14.765 [info] Using git "2.42.1" from "git"
+2023-11-23 20:00:14.765 [info] > git rev-parse --show-toplevel [34ms]
+2023-11-23 20:00:14.765 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:00:14.765 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-23 20:00:14.765 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:00:14.766 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:00:14.766 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:00:14.773 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-23 20:00:14.773 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:00:16.269 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:00:16.269 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:00:16.623 [info] > git rev-parse --show-toplevel [0ms]
+2023-11-23 20:00:16.623 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:00:17.013 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:00:17.013 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:00:18.842 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:00:18.843 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:00:24.185 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:00:24.185 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:00:24.576 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:00:24.576 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:00:24.794 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:00:24.794 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:29:23.076 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-23 20:29:23.076 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:30:29.473 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:30:29.473 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:30:30.312 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:30:30.312 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:30:37.370 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:30:37.370 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-23 20:30:41.051 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-23 20:30:41.051 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

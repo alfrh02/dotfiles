@@ -1,0 +1,17 @@
+2023-11-23 20:00:04.419 [info] update#setState disabled
+2023-11-23 20:00:04.421 [info] update#ctor - updates are disabled as there is no update URL
+2023-11-23 20:00:14.702 [info] Extension host with pid 1060593 exited with code: 0, signal: unknown.
+2023-11-23 20:00:14.729 [info] Extension host with pid 1060564 exited with code: 0, signal: unknown.
+2023-11-23 20:00:14.740 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1060650]: crashed with code 15 and reason 'killed'
+2023-11-24 00:36:20.711 [info] Extension host with pid 1061222 exited with code: 0, signal: unknown.
+2023-11-24 00:36:20.743 [info] Extension host with pid 1061201 exited with code: 0, signal: unknown.
+2023-11-24 00:36:20.745 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 1061190]: crashed with code 15 and reason 'killed'
+2023-11-24 02:12:14.243 [error] [UtilityProcess type: shared-process, pid: 1060649]: crashed with code 15 and reason 'killed'
+2023-11-24 02:12:14.244 [error] ptyHost terminated unexpectedly with code 15
+2023-11-24 02:12:14.244 [warning] [UtilityProcess type: ptyHost, pid: 1060563]: unable to kill the process
+2023-11-24 02:12:14.258 [info] Extension host with pid 2040029 exited with code: 0, signal: unknown.
+2023-11-24 02:12:14.258 [error] [UtilityProcess id: 6, type: extensionHost, pid: 2040029]: crashed with code 15 and reason 'killed'
+2023-11-24 02:12:14.259 [error] [UtilityProcess id: 3, type: fileWatcher, pid: 2040001]: crashed with code 15 and reason 'killed'
+2023-11-24 02:12:14.259 [info] Extension host with pid 2040014 exited with code: 0, signal: unknown.
+2023-11-24 02:12:14.260 [error] [UtilityProcess id: 5, type: extensionHost, pid: 2040014]: crashed with code 15 and reason 'killed'
+2023-11-24 02:12:14.274 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

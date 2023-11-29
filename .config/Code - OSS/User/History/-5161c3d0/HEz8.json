@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Catppuccin Latte",
+    "workbench.startupEditor": "none",
+    "window.menuBarVisibility": "toggle",
+    "files.autoSave": "onFocusChange",
+    "workbench.iconTheme": "catppuccin-latte"
+}

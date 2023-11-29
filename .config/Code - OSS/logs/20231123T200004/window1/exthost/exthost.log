@@ -1,0 +1,75 @@
+2023-11-23 20:00:05.341 [info] Extension host with pid 1060564 started
+2023-11-23 20:00:05.346 [info] Extension host with pid 1060593 started
+2023-11-23 20:00:05.357 [info] Eager extensions activated
+2023-11-23 20:00:05.377 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2023-11-23 20:00:05.389 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2023-11-23 20:00:05.398 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-23 20:00:05.412 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-23 20:00:05.457 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-23 20:00:05.498 [info] Eager extensions activated
+2023-11-23 20:00:05.511 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-23 20:00:05.513 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-23 20:00:05.528 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-11-23 20:00:05.534 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-11-23 20:00:05.548 [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces, startup: false, activationEvent: 'onStartupFinished'
+2023-11-23 20:00:05.560 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-11-23 20:00:14.699 [info] Extension host terminating: renderer closed the MessagePort
+2023-11-23 20:00:14.702 [error] Canceled: Canceled
+	at new f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:108614)
+	at n.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:10873)
+	at F.<computed>.z.charCodeAt.F.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+	at i.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:139130)
+	at i.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:138568)
+	at $.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:137892)
+	at i.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:139669)
+	at i.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:138661)
+	at i.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:138568)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:21329)
+	at x.<anonymous> (/home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal/dist/extension.js:1:234389)
+	at Generator.next (<anonymous>)
+	at /home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal/dist/extension.js:1:232254
+	at new Promise (<anonymous>)
+	at u (/home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal/dist/extension.js:1:231999)
+	at x.set (/home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal/dist/extension.js:1:234268)
+	at Module.Er (/home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal/dist/extension.js:1:328163)
+	at h.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:9648)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7793
+	at Array.map (<anonymous>)
+	at h.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7781)
+	at h.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:8051)
+	at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:9817)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:6242)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-11-23 20:00:14.702 [error] Canceled: Canceled
+	at new f (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:108614)
+	at n.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:10873)
+	at F.<computed>.z.charCodeAt.F.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+	at i.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:139130)
+	at i.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:138568)
+	at $.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:137892)
+	at i.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:139669)
+	at i.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:138661)
+	at i.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:138568)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:21329)
+	at x.<anonymous> (/home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal/dist/extension.js:1:234389)
+	at Generator.next (<anonymous>)
+	at /home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal/dist/extension.js:1:232254
+	at new Promise (<anonymous>)
+	at u (/home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal/dist/extension.js:1:231999)
+	at x.set (/home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal/dist/extension.js:1:234268)
+	at Module.Er (/home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal/dist/extension.js:1:328184)
+	at h.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:9648)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7793
+	at Array.map (<anonymous>)
+	at h.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:7781)
+	at h.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:136:8051)
+	at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:9817)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:6242)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-11-23 20:00:14.702 [info] Extension host with pid 1060593 exiting with code 0
+2023-11-23 20:00:14.727 [info] Extension host terminating: renderer closed the MessagePort
+2023-11-23 20:00:14.729 [info] Extension host with pid 1060564 exiting with code 0

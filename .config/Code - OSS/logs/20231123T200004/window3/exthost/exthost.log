@@ -1,0 +1,23 @@
+2023-11-24 00:36:20.352 [info] Extension host with pid 2040014 started
+2023-11-24 00:36:20.352 [info] Skipping acquiring lock for /home/alfr/.config/Code - OSS/User/workspaceStorage/06335002a3ca760e8b055c03552f7d68.
+2023-11-24 00:36:20.377 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-24 00:36:20.390 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-24 00:36:20.427 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-24 00:36:20.433 [info] Extension host with pid 2040029 started
+2023-11-24 00:36:20.433 [info] Skipping acquiring lock for /home/alfr/.config/Code - OSS/User/workspaceStorage/06335002a3ca760e8b055c03552f7d68.
+2023-11-24 00:36:20.434 [info] Eager extensions activated
+2023-11-24 00:36:20.438 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2023-11-24 00:36:20.461 [info] Eager extensions activated
+2023-11-24 00:36:20.470 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-24 00:36:20.471 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-24 00:36:20.482 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-11-24 00:36:20.485 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-11-24 00:36:20.494 [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces, startup: false, activationEvent: 'onStartupFinished'
+2023-11-24 00:36:20.501 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-11-24 00:36:23.290 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-11-24 00:36:23.319 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-24 00:37:51.006 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-11-24 00:38:14.954 [warning] TextEditor is closed/disposed
+2023-11-24 00:38:14.954 [warning] TextEditor is closed/disposed
+2023-11-24 00:38:48.131 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-11-24 00:41:37.245 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:vscode.audioPreview'

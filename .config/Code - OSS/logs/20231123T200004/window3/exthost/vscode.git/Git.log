@@ -1,0 +1,27 @@
+2023-11-24 00:36:20.544 [info] Log level: Info
+2023-11-24 00:36:20.544 [info] Validating found git in: "git"
+2023-11-24 00:36:20.544 [info] Using git "2.42.1" from "git"
+2023-11-24 00:36:20.544 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 00:36:20.544 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-24 00:36:20.544 [info] > git rev-parse --show-toplevel [8ms]
+2023-11-24 00:36:20.544 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-24 00:36:20.545 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-24 00:36:20.545 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-24 00:36:23.243 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 00:36:23.243 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-24 00:37:50.995 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 00:37:50.995 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-24 00:37:58.764 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 00:37:58.764 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-24 00:41:45.862 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 00:41:45.862 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-24 01:47:51.917 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-24 01:47:51.917 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

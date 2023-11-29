@@ -1,0 +1,15 @@
+2023-11-22 19:49:55.303 [info] Getting Manifest... asvetliakov.vscode-neovim
+2023-11-22 19:49:55.788 [info] Installing extension: asvetliakov.vscode-neovim
+2023-11-22 19:49:56.307 [info] Extension signature verification is not done: asvetliakov.vscode-neovim
+2023-11-22 19:49:56.336 [info] Extracted extension to file:///home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal: asvetliakov.vscode-neovim
+2023-11-22 19:49:56.338 [info] Renamed to /home/alfr/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.1.2-universal
+2023-11-22 19:49:56.338 [info] Extracting extension completed. asvetliakov.vscode-neovim
+2023-11-22 19:49:56.342 [info] Extension installed successfully: asvetliakov.vscode-neovim
+2023-11-22 19:49:56.343 [info] Marked extension as uninstalled asvetliakov.vscode-neovim-1.0.1-universal
+2023-11-22 19:49:56.417 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/alfr/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/alfr/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)

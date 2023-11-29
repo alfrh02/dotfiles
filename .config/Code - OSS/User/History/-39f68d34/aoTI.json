@@ -1,0 +1,34 @@
+[
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w w",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.terminal.killEditor",
+        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
+    }
+]

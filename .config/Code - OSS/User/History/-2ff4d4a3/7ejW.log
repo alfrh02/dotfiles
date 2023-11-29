@@ -1,0 +1,709 @@
+[02Nov2023 19:45:18.965] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, __alfred, --version, 1.20.1, --gameDir, /home/alfr/.config/com.modrinth.theseus/profiles/neoforge, --assetsDir, /home/alfr/.config/com.modrinth.theseus/meta/assets, --assetIndex, 5, --uuid, 9a1b85051e39432d9a7d21d94d6a72f0, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480, --launchTarget, forgeclient, --fml.forgeVersion, 47.1.79, --fml.fmlVersion, 47.1.47, --fml.mcVersion, 1.20.1, --fml.mcpVersion, 20230612.114412]
+[02Nov2023 19:45:18.967] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8.1 by Azul Systems, Inc.; OS Linux arch amd64 version 6.5.9-arch2-1
+[02Nov2023 19:45:19.173] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[02Nov2023 19:45:19.218] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[02Nov2023 19:45:19.247] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[02Nov2023 19:45:19.279] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2390!/ Service=ModLauncher Env=CLIENT
+[02Nov2023 19:45:19.295] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070/PCIe/SSE2 GL version 4.6.0 NVIDIA 535.113.01, NVIDIA Corporation
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aether-1.20.1-1.0.0-beta.1.4-neoforge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "AmbientSounds_FORGE_v5.2.24_mc1.20.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-9.1.11-forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bellsandwhistles-0.4.1-1.20.x.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "carryon-forge-1.20.1-2.1.0.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "casualness_delight-1.20.1-0.2n.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Chunky-1.3.92.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-12.0.109-forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.20.1-6.72.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "comforts-forge-6.3.4+1.20.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Compress-It-2.5.0-1.20.x-forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.20.1-0.5.1.f.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-track-map-1.4+mc1.20.1-neoforge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_enchantment_industry-1.20.1-for-create-0.5.1.e-1.2.7.f.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "createendertransmission-2.0.6-1.20.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "createliquidfuel-2.0.2-1.20.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_FORGE_v2.11.8_mc1.20.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.418] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cristellib-1.1.3-forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cuisinedelight-1.1.8.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-forge-5.4.2+1.20.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DistantFriends-1.20.1-0.5.3.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "doapi-1.2.8-forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EasyAnvils-v8.0.1-1.20.1-Forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "EasyMagic-v8.0.1-1.20.1-Forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersDelight-1.20.1-1.2.3.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Fastload-Reforged-mc1.20.1-3.4.0.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-6.0.1-forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Festive_Delight_1.1_1.20.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.20.1-4.2.4.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ImmediatelyFast-1.2.6+1.20.2.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "interiors-v0.5-1.20.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-1.20.1-5.9.15-neoforge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kotlinforforge-4.5.0-all.jar" of type LIBRARY with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "letmedespawn-forge-1.20.x-1.2.0.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "missions-forge-0.1.4.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-forge-5.7.2+mc1.20.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modonomicon-1.20.1-forge-1.40.0.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-1.20-2.8.52-forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "nethersdelight-1.20.1-4.0.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NostalgicTweaks-1.20.1-Forge-2.0.0-Beta-8.4.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "occultism-1.20.1-1.89.0.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "oculus-mc1.20.1-1.6.9.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PuzzlesLib-v8.1.5-1.20.1-Forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "radium-mc1.20.1-0.12.2+git.5f80f74.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "right-click-harvest-3.2.3+1.20.1-forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "RoughlyEnoughItems-12.0.672.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.419] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "RoughlyEnoughProfessions-forge-1.20.1-2.0.2.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Rrls-3.2.0-1.20.1-forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "rubidium-mc1.20.1-0.7.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "saturn-mc1.20.1-0.0.7.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Shut Up GL Error-forge-1.20.1-1.0.0.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SmartBrainLib-neoforge-1.20.1-1.12.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supplementaries-1.20-2.6.17.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "villagernames-1.20.1-5.2.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Vinery - 1.4.5 - FORGE - 1.20.1.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "wwoo-3.2.1-forge.jar" of type MOD with provider {mods folder locator at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods}
+[02Nov2023 19:45:19.467] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/core/47.1.47/core-47.1.47.jar is missing mods.toml file
+[02Nov2023 19:45:19.467] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/language-java/47.1.47/language-java-47.1.47.jar is missing mods.toml file
+[02Nov2023 19:45:19.468] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/language-lowcode/47.1.47/language-lowcode-47.1.47.jar is missing mods.toml file
+[02Nov2023 19:45:19.468] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/language-minecraft/47.1.47/language-minecraft-47.1.47.jar is missing mods.toml file
+[02Nov2023 19:45:19.480] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "core-47.1.47.jar" of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4287d447
+[02Nov2023 19:45:19.480] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-java-47.1.47.jar" of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4287d447
+[02Nov2023 19:45:19.480] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-lowcode-47.1.47.jar" of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4287d447
+[02Nov2023 19:45:19.480] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-minecraft-47.1.47.jar" of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4287d447
+[02Nov2023 19:45:19.480] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "client-1.20.1-20230612.114412-srg.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4287d447
+[02Nov2023 19:45:19.480] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "forge-1.20.1-47.1.79-universal.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4287d447
+[02Nov2023 19:45:19.481] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "events-47.1.47.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.BuiltinGameLibraryLocator@304b9f1a
+[02Nov2023 19:45:19.645] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[02Nov2023 19:45:19.645] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/mods/curios-forge-5.4.2+1.20.1.jar
+[02Nov2023 19:45:19.645] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 21 dependencies adding them to mods collection
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NanoLiveConfig-1.2.0.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "forge-Reflect-1.2.4.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jankson-1.2.1.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "forge-mixinextras-forge-0.2.0-rc.5.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "commonmark-ext-ins-0.21.0.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cumulus_menus-1.20.1-1.0.0-beta.1-neoforge.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "commonmark-0.21.0.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_dragon_lib-1.20.1-1.3.3.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kfflib-4.5.0.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Registrate-MC1.20-1.3.3.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "spectrelib-forge-0.13.14+1.20.1.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MixinExtras-0.2.0-rc.5.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "nitrogen_internals-1.20.1-0.1.3-neoforge.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mclib-20.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "puzzlesaccessapi-forge-8.0.7.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "l2library-2.4.14-slim.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kfflang-4.5.0.jar" of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kffmod-4.5.0.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "l2serial-1.2.0.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-forge-1.20.1-0.6.10-7.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:19.646] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "commonmark-ext-gfm-strikethrough-0.21.0.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@56193c7d
+[02Nov2023 19:45:20.490] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Nov2023 19:45:20.530] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
+[02Nov2023 19:45:20.538] [main/ERROR] [mixin/]: Mixin config mixins.oculus.compat.sodium.json does not specify "minVersion" property
+[02Nov2023 19:45:20.557] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, /home/alfr/.config/com.modrinth.theseus/profiles/neoforge, --assetsDir, /home/alfr/.config/com.modrinth.theseus/meta/assets, --uuid, 9a1b85051e39432d9a7d21d94d6a72f0, --username, __alfred, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4502edb-87c6-40cb-b595-64a280cf8906, --xuid, 0, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[02Nov2023 19:45:20.593] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 126 options available, 1 override(s) found
+[02Nov2023 19:45:20.603] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 41 options available, 5 override(s) found
+[02Nov2023 19:45:20.629] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.7.2+mc1.20.1: 63 options available, 0 override(s) found
+[02Nov2023 19:45:20.629] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[02Nov2023 19:45:20.635] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[02Nov2023 19:45:20.638] [main/WARN] [mixin/]: Reference map 'vinery-forge-refmap.json' for vinery.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Nov2023 19:45:20.678] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Nov2023 19:45:20.679] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Nov2023 19:45:20.679] [main/WARN] [mixin/]: Reference ma/create/p 'CreateLiquidFuel.refmap.json' for createliquidfuel.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Nov2023 19:45:20.698] [main/INFO] [Puzzles Lib/]: Loading 69 mods:
+	- aether 1.20.1-1.0.0-beta.1.4-neoforge
+	- ambientsounds 5.2.24
+	- architectury 9.1.11
+	- bellsandwhistles 0.4.1-1.20.x
+	- carryon 2.1.0.1
+	- casualness_delight 1.20.1-0.2n
+	- chunky 1.3.92
+	- cloth_config 12.0.109
+	- collective 6.72
+	- comforts 6.3.4+1.20.1
+	- compress_it 2.5.0
+	- create 0.5.1.f
+	- create_dragon_lib 1.3.3
+	- create_enchantment_industry 1.2.7.f
+	- createendertransmission 2.0.6-1.20.1
+	- createliquidfuel 2.0.2-1.20.1
+	- createtrackmap 1.4
+	- creativecore 2.11.8
+	- cristellib 1.1.3
+	- cuisinedelight 1.1.8
+	- cumulus_menus 1.20.1-1.0.0-beta.1-neoforge
+	- curios 5.4.2+1.20.1
+	- distantfriends 0.5.3
+	- doapi 1.2.8
+	- easyanvils 8.0.1
+	- easymagic 8.0.1
+	- farmersdelight 1.20.1-1.2.3
+	- fastload 3.4.0
+	- ferritecore 6.0.1
+	- festive_delight 1.0.0
+	- flywheel 0.6.10-7
+	- forge 47.1.79
+	- geckolib 4.2.4
+	- immediatelyfast 1.2.6+1.20.2
+	- interiors 0.5
+	- iris 1.6.9
+	- journeymap 5.9.15
+	- kotlinforforge 4.5.0
+	- l2library 2.4.14
+	- letmedespawn 1.2.0
+	- minecraft 1.20.1
+	- missions 0.1.4
+	- mixinextras 0.2.0-rc.5
+	- modernfix 5.7.2+mc1.20.1
+	- modonomicon 1.40.0
+	- moonlight 1.20-2.8.52
+	- nethersdelight 1.20.1-4.0
+	- nitrogen_internals 1.20.1-0.1.3-neoforge
+	- nostalgic_tweaks 2.0.0-Beta-8.4.1
+	- occultism 1.89.0
+	- oculus 1.6.9
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.5
+	- radium 0.12.2+git.5f80f74
+	- rightclickharvest 3.2.3+1.20.1-forge
+	- roughlyenoughitems 12.0.672
+	- roughlyenoughprofessions 2.0.2
+	- rrls 3.2.0-1.20.1-forge
+	- rubidium 0.7.1
+	- saturn 0.0.7
+	- shut_up_gl_error 1.0.0
+	- smartbrainlib 1.12
+	- sodium 0.5.2
+	- spectrelib 0.13.14+1.20.1
+	- supplementaries 1.20-2.6.17
+	- terraform 7.0.1
+	- villagernames 5.2
+	- vinery 1.4.5
+	- wwoo 3.2.1
+[02Nov2023 19:45:20.700] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Nov2023 19:45:20.700] [main/WARN] [mixin/]: Reference map 'Rrls-forge-refmap.json' for rrls.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Nov2023 19:45:20.702] [main/WARN] [mixin/]: Reference map 'wwoo-forge-refmap.json' for wwoo.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Nov2023 19:45:20.703] [main/WARN] [mixin/]: Reference map 'cuisinedelight.refmap.json' for cuisinedelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Nov2023 19:45:20.710] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Nov2023 19:45:20.736] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[02Nov2023 19:45:21.025] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.gui.hooks.debug.DebugHudMixin' as rule 'mixin.features.gui.hooks.debug' (added by mods [nostalgic_tweaks]) disables it and children
+[02Nov2023 19:45:21.026] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[02Nov2023 19:45:21.027] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[02Nov2023 19:45:21.027] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[02Nov2023 19:45:21.027] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[02Nov2023 19:45:21.027] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[02Nov2023 19:45:21.029] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.render.world.clouds.BackgroundRendererInvoker' as rule 'mixin.features.render.world.clouds' (added by mods [nostalgic_tweaks]) disables it and children
+[02Nov2023 19:45:21.029] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.render.world.clouds.WorldRendererMixin' as rule 'mixin.features.render.world.clouds' (added by mods [nostalgic_tweaks]) disables it and children
+[02Nov2023 19:45:21.029] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[02Nov2023 19:45:21.029] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[02Nov2023 19:45:21.029] [main/WARN] [Rubidium/]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[02Nov2023 19:45:21.337] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/FanProcessing (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.FanProcessing)
+[02Nov2023 19:45:21.337] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.FanProcessing was not found missions-common.mixins.json:create.FanProcessingMixin
+[02Nov2023 19:45:21.460] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0-rc.5).
+[02Nov2023 19:45:21.522] [main/WARN] [mixin/]: @Redirect conflict. Skipping mixin.nostalgic_tweaks-common-client.json:gui.LoadingOverlayMixin->@Redirect::NT$onSetProgressBarColor(IIII)I with priority 1000, already redirected by rrls-common.mixins.json:SplashOverlayMixin->@Redirect::rainbowProgress(IIII)I with priority 1000
+[02Nov2023 19:45:21.923] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (3.704 s after launch)
+[02Nov2023 19:45:22.001] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[02Nov2023 19:45:22.001] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[02Nov2023 19:45:22.001] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[02Nov2023 19:45:22.083] [pool-4-thread-1/WARN] [mixin/]: @Final field f_20945_:Ljava/util/Map; in vinery-common.mixins.json:LivingEntityMixin should be final
+[02Nov2023 19:45:22.489] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 564 milliseconds
+[02Nov2023 19:45:23.433] [pool-4-thread-1/WARN] [mixin/]: Method overwrite conflict for m_47505_ in lithium.mixins.json:world.temperature_cache.BiomeMixin, previously written by com.abdelaziz.saturn.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[02Nov2023 19:45:23.433] [pool-4-thread-1/WARN] [mixin/]: Method overwrite conflict for m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by com.abdelaziz.saturn.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[02Nov2023 19:45:23.732] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23258!/assets/.mcassetsroot' uses unexpected schema
+[02Nov2023 19:45:23.732] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23258!/data/.mcassetsroot' uses unexpected schema
+[02Nov2023 19:45:23.738] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Nov2023 19:45:23.973] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: __alfred
+[02Nov2023 19:45:24.003] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
+[02Nov2023 19:45:24.043] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[02Nov2023 19:45:24.061] [Render thread/INFO] [Rubidium-PostlaunchChecks/]: OpenGL Vendor: NVIDIA Corporation
+[02Nov2023 19:45:24.061] [Render thread/INFO] [Rubidium-PostlaunchChecks/]: OpenGL Renderer: NVIDIA GeForce RTX 4070/PCIe/SSE2
+[02Nov2023 19:45:24.061] [Render thread/INFO] [Rubidium-PostlaunchChecks/]: OpenGL Version: 4.6.0 NVIDIA 535.113.01
+[02Nov2023 19:45:24.061] [Render thread/INFO] [ImmediatelyFast/]: Initializing ImmediatelyFast 1.2.6+1.20.2 on NVIDIA GeForce RTX 4070/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 4.6.0 NVIDIA 535.113.01
+[02Nov2023 19:45:24.117] [Render thread/INFO] [ImmediatelyFast/]: Found Iris/Oculus 1.6.9. Enabling compatibility.
+[02Nov2023 19:45:24.154] [Render thread/INFO] [Oculus/]: Debug functionality is disabled.
+[02Nov2023 19:45:24.156] [Render thread/INFO] [Oculus/]: OpenGL 4.5 detected, enabling DSA.
+[02Nov2023 19:45:24.240] [Render thread/INFO] [Oculus/]: Profile: HIGH (+0 options changed by user)
+[02Nov2023 19:45:24.577] [Render thread/INFO] [Oculus/]: Using shaderpack: rethinking-voxels_r0.1_alpha10.zip
+[02Nov2023 19:45:24.698] [modloading-worker-0/INFO] [Rubidium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[02Nov2023 19:45:24.698] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.3.3 has initialized, ready to support your Create add-ons!
+[02Nov2023 19:45:24.699] [modloading-worker-0/INFO] [Shut Up GL Error/]: They're more guidelines than actual errors
+[02Nov2023 19:45:24.709] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: NeoForge mod loading, version 47.1.79, for MC 1.20.1 with MCP 20230612.114412
+[02Nov2023 19:45:24.709] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: NeoForge v47.1.79 Initialized
+[02Nov2023 19:45:24.711] [modloading-worker-0/INFO] [Rubidium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=AD104 [GeForce RTX 4070], version=535.113.01]
+[02Nov2023 19:45:24.712] [modloading-worker-0/WARN] [Rubidium-Workarounds/]: Rubidium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[02Nov2023 19:45:24.713] [modloading-worker-0/WARN] [Rubidium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[02Nov2023 19:45:24.718] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5 initializing
+[02Nov2023 19:45:24.733] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[02Nov2023 19:45:24.735] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[02Nov2023 19:45:24.745] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: Oculus detected.
+[02Nov2023 19:45:24.800] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 6.72.
+[02Nov2023 19:45:24.810] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing client components for easymagic:main
+[02Nov2023 19:45:24.893] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[02Nov2023 19:45:24.893] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[02Nov2023 19:45:24.896] [modloading-worker-0/INFO] [Create: Interiors/]: Registering blocks!
+[02Nov2023 19:45:24.909] [modloading-worker-0/INFO] [WWOO/]: Loading William Wythers' Overhauled Overworld
+[02Nov2023 19:45:24.917] [modloading-worker-0/INFO] [com.kryeit.Main/]: Reading config file...
+[02Nov2023 19:45:24.930] [modloading-worker-0/WARN] [com.kryeit.Main/]: The following mission types are available but ignored due to their absence in the config file: [train-driver-passenger, train-passenger, dive, vote, train-driver]
+[02Nov2023 19:45:24.960] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[02Nov2023 19:45:24.961] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[02Nov2023 19:45:24.967] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing client components for easyanvils:main
+[02Nov2023 19:45:24.968] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing client components for puzzleslib:main
+[02Nov2023 19:45:25.030] [modloading-worker-0/INFO] [REI/]: [REI] Config loaded
+[02Nov2023 19:45:25.072] [modloading-worker-0/FATAL] [mixin/]: Mixin apply failed missions-common.mixins.json:create.AbstractContraptionEntityMixin -> com.simibubi.create.content.contraptions.AbstractContraptionEntity: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on onDismount could not find any targets matching 'getDismountLocationForPassenger' in com.simibubi.create.content.contraptions.AbstractContraptionEntity. Using refmap missions-common-common-refmap.json [PREINJECT Applicator Phase -> missions-common.mixins.json:create.AbstractContraptionEntityMixin -> Prepare Injections ->  -> handler$cem000$onDismount(Lnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on onDismount could not find any targets matching 'getDismountLocationForPassenger' in com.simibubi.create.content.contraptions.AbstractContraptionEntity. Using refmap missions-common-common-refmap.json [PREINJECT Applicator Phase -> missions-common.mixins.json:create.AbstractContraptionEntityMixin -> Prepare Injections ->  -> handler$cem000$onDismount(Lnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1311) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1042) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:393) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at com.simibubi.create.AllBlocks.<clinit>(AllBlocks.java:1260) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	at com.simibubi.create.Create.onCtor(Create.java:108) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	at com.simibubi.create.Create.<init>(Create.java:93) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[language-java-47.1.47.jar%23260!/:47.1]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[core-47.1.47.jar%23259!/:47.1]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+[02Nov2023 19:45:25.080] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: create, class com.simibubi.create.Create
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:68) ~[language-java-47.1.47.jar%23260!/:47.1]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[core-47.1.47.jar%23259!/:47.1]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?]
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at com.simibubi.create.AllBlocks.<clinit>(AllBlocks.java:1260) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	at com.simibubi.create.Create.onCtor(Create.java:108) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	at com.simibubi.create.Create.<init>(Create.java:93) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	... 14 more
+Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [missions-common.mixins.json:create.AbstractContraptionEntityMixin] from phase [DEFAULT] in config [missions-common.mixins.json] FAILED during APPLY
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:636) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:588) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at com.simibubi.create.AllBlocks.<clinit>(AllBlocks.java:1260) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	at com.simibubi.create.Create.onCtor(Create.java:108) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	at com.simibubi.create.Create.<init>(Create.java:93) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	... 14 more
+Caused by: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on onDismount could not find any targets matching 'getDismountLocationForPassenger' in com.simibubi.create.content.contraptions.AbstractContraptionEntity. Using refmap missions-common-common-refmap.json [PREINJECT Applicator Phase -> missions-common.mixins.json:create.AbstractContraptionEntityMixin -> Prepare Injections ->  -> handler$cem000$onDismount(Lnet/minecraft/world/entity/LivingEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.validateTargets(InjectionInfo.java:656) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.findTargets(InjectionInfo.java:587) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:330) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:316) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:308) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:46) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:149) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:708) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1311) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:1042) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:393) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at com.simibubi.create.AllBlocks.<clinit>(AllBlocks.java:1260) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	at com.simibubi.create.Create.onCtor(Create.java:108) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	at com.simibubi.create.Create.<init>(Create.java:93) ~[create-1.20.1-0.5.1.f.jar%23213!/:0.5.1.f]
+	... 14 more
+[02Nov2023 19:45:25.114] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider REPClientPlugin [roughlyenoughprofessions] for REIPlugin
+[02Nov2023 19:45:25.114] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider REICompat [supplementaries] for REIPlugin
+[02Nov2023 19:45:25.114] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider VineryReiClientPluginForge [vinery] for REIPlugin
+[02Nov2023 19:45:25.127] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id roughlyenoughitems:request_tags_s2c
+[02Nov2023 19:45:25.129] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[02Nov2023 19:45:25.129] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[02Nov2023 19:45:25.129] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[02Nov2023 19:45:25.130] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[02Nov2023 19:45:25.130] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[02Nov2023 19:45:25.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[02Nov2023 19:45:25.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
+[02Nov2023 19:45:25.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[02Nov2023 19:45:25.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[02Nov2023 19:45:25.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
+[02Nov2023 19:45:25.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[02Nov2023 19:45:25.149] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIClientPlugin
+[02Nov2023 19:45:25.149] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIPlugin
+[02Nov2023 19:45:25.156] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[02Nov2023 19:45:25.156] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[02Nov2023 19:45:25.157] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[02Nov2023 19:45:25.157] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[02Nov2023 19:45:25.164] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider REPClientPlugin [roughlyenoughprofessions] for REIClientPlugin
+[02Nov2023 19:45:25.164] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider REICompat [supplementaries] for REIClientPlugin
+[02Nov2023 19:45:25.164] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider VineryReiClientPluginForge [vinery] for REIClientPlugin
+[02Nov2023 19:45:25.164] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id roughlyenoughitems:ci_msg
+[02Nov2023 19:45:25.164] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id roughlyenoughitems:og_not_enough
+[02Nov2023 19:45:25.288] [modloading-worker-0/INFO] [WWOO/]: [WWOO Updater] Found no updates
+[02Nov2023 19:45:25.305] [Render thread/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[02Nov2023 19:45:25.313] [Render thread/WARN] [net.minecraft.client.Options/]: Removed resource pack mod_resources from options because it doesn't seem to exist anymore
+[02Nov2023 19:45:25.313] [Render thread/WARN] [net.minecraft.client.Options/]: Removed resource pack Moonlight Mods Dynamic Assets from options because it doesn't seem to exist anymore
+[02Nov2023 19:45:25.344] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[02Nov2023 19:45:25.368] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$Block to a broken mod state
+[02Nov2023 19:45:25.369] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$Item to a broken mod state
+[02Nov2023 19:45:25.457] [Render thread/INFO] [Oculus/]: Hardware information:
+[02Nov2023 19:45:25.457] [Render thread/INFO] [Oculus/]: CPU: 20x 13th Gen Intel(R) Core(TM) i5-13600KF
+[02Nov2023 19:45:25.457] [Render thread/INFO] [Oculus/]: GPU: NVIDIA GeForce RTX 4070/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 535.113.01)
+[02Nov2023 19:45:25.457] [Render thread/INFO] [Oculus/]: OS: Linux (6.5.9-arch2-1)
+[02Nov2023 19:45:25.485] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Initializing client config prematurely for mixin compatibility
+[02Nov2023 19:45:25.488] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Created new startup config backup at /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/config/nostalgic_tweaks/backup/nostalgic_tweaks-client-startup_backup.json
+[02Nov2023 19:45:25.514] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Validated 0 customized block outline entries
+[02Nov2023 19:45:25.514] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Validated 0 ignored old item holding entries
+[02Nov2023 19:45:25.515] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Validated 0 customized food health values
+[02Nov2023 19:45:25.515] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Validated 0 customized maximum food item stack sizes
+[02Nov2023 19:45:25.515] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Validated 0 customized item stack sizes
+[02Nov2023 19:45:25.515] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Validated 0 left-click customized swing speeds
+[02Nov2023 19:45:25.516] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Validated 0 right-click customized swing speeds
+[02Nov2023 19:45:25.520] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Config was reloaded
+[02Nov2023 19:45:25.527] [Render thread/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loaded 318 tweaks
+[02Nov2023 19:45:25.541] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RenderLevelStageEvent$RegisterStageEvent to a broken mod state
+[02Nov2023 19:45:25.567] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterParticleProvidersEvent to a broken mod state
+[02Nov2023 19:45:25.608] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientReloadListenersEvent to a broken mod state
+[02Nov2023 19:45:25.608] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterLayerDefinitions to a broken mod state
+[02Nov2023 19:45:25.608] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterRenderers to a broken mod state
+[02Nov2023 19:45:25.608] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterTextureAtlasSpriteLoadersEvent to a broken mod state
+[02Nov2023 19:45:25.609] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientTooltipComponentFactoriesEvent to a broken mod state
+[02Nov2023 19:45:25.609] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterEntitySpectatorShadersEvent to a broken mod state
+[02Nov2023 19:45:25.609] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterKeyMappingsEvent to a broken mod state
+[02Nov2023 19:45:25.609] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterRecipeBookCategoriesEvent to a broken mod state
+[02Nov2023 19:45:25.611] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterGuiOverlaysEvent to a broken mod state
+[02Nov2023 19:45:25.612] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent to a broken mod state
+[02Nov2023 19:45:25.612] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterNamedRenderTypesEvent to a broken mod state
+[02Nov2023 19:45:25.612] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$ColorResolvers to a broken mod state
+[02Nov2023 19:45:25.612] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterItemDecorationsEvent to a broken mod state
+[02Nov2023 19:45:25.615] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterPresetEditorsEvent to a broken mod state
+[02Nov2023 19:45:25.647] [Render thread/ERROR] [com.mojang.text2speech.Narrator/]: Error while loading the narrator
+com.mojang.text2speech.Narrator$InitializeException: Failed to load library flite
+	at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:69) ~[text2speech-1.17.9.jar%23105!/:?]
+	at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%23105!/:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%23105!/:?]
+	at net.minecraft.client.GameNarrator.<init>(GameNarrator.java:19) ~[client-1.20.1-20230612.114412-srg.jar%23258!/:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:553) ~[client-1.20.1-20230612.114412-srg.jar%23258!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-1.20.1-47.1.79.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-47.1.47.jar:47.1]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-47.1.47.jar:47.1]
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:24) ~[loader-47.1.47.jar:47.1]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-47.1.47.jar:47.1]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.UnsatisfiedLinkError: Unable to load library 'flite':
+libflite.so: cannot open shared object file: No such file or directory
+libflite.so: cannot open shared object file: No such file or directory
+Native library (linux-x86-64/libflite.so) not found in resource path (/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/loader/47.1.47/loader-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/earlydisplay/47.1.47/earlydisplay-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/ow2/asm/asm/9.5/asm-9.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/events/47.1.47/events-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/core/47.1.47/core-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/language-java/47.1.47/language-java-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/language-lowcode/47.1.47/language-lowcode-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/language-minecraft/47.1.47/language-minecraft-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/google/code/gson/gson/2.10/gson-2.10.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/authlib/4.0.43/authlib-4.0.43.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/logging/1.1.1/logging-1.1.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/versions/1.20.1-1.20.1-47.1.79/1.20.1-1.20.1-47.1.79.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:307) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:467) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:409) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+	at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%23105!/:?]
+	... 21 more
+	Suppressed: java.lang.UnsatisfiedLinkError: libflite.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:197) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:467) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:409) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%23105!/:?]
+		at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%23105!/:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%23105!/:?]
+		at net.minecraft.client.GameNarrator.<init>(GameNarrator.java:19) ~[client-1.20.1-20230612.114412-srg.jar%23258!/:?]
+		at net.minecraft.client.Minecraft.<init>(Minecraft.java:553) ~[client-1.20.1-20230612.114412-srg.jar%23258!/:?]
+		at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-1.20.1-47.1.79.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+		at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-47.1.47.jar:47.1]
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-47.1.47.jar:47.1]
+		at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:24) ~[loader-47.1.47.jar:47.1]
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-47.1.47.jar:47.1]
+		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libflite.so: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:210) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:467) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:409) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%23105!/:?]
+		at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%23105!/:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%23105!/:?]
+		at net.minecraft.client.GameNarrator.<init>(GameNarrator.java:19) ~[client-1.20.1-20230612.114412-srg.jar%23258!/:?]
+		at net.minecraft.client.Minecraft.<init>(Minecraft.java:553) ~[client-1.20.1-20230612.114412-srg.jar%23258!/:?]
+		at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-1.20.1-47.1.79.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+		at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-47.1.47.jar:47.1]
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-47.1.47.jar:47.1]
+		at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:24) ~[loader-47.1.47.jar:47.1]
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-47.1.47.jar:47.1]
+		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-x86-64/libflite.so) not found in resource path (/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/loader/47.1.47/loader-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/earlydisplay/47.1.47/earlydisplay-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/ow2/asm/asm/9.5/asm-9.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/events/47.1.47/events-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/core/47.1.47/core-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/language-java/47.1.47/language-java-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/language-lowcode/47.1.47/language-lowcode-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/neoforged/fancymodloader/language-minecraft/47.1.47/language-minecraft-47.1.47.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/google/code/gson/gson/2.10/gson-2.10.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/authlib/4.0.43/authlib-4.0.43.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/logging/1.1.1/logging-1.1.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-linux.jar:/home/alfr/.config/com.modrinth.theseus/meta/libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar:/home/alfr/.config/com.modrinth.theseus/meta/versions/1.20.1-1.20.1-47.1.79/1.20.1-1.20.1-47.1.79.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:281) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:467) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:409) ~[jna-5.12.1.jar%23121!/:5.12.1 (b0)]
+		at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%23105!/:?]
+		at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%23105!/:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%23105!/:?]
+		at net.minecraft.client.GameNarrator.<init>(GameNarrator.java:19) ~[client-1.20.1-20230612.114412-srg.jar%23258!/:?]
+		at net.minecraft.client.Minecraft.<init>(Minecraft.java:553) ~[client-1.20.1-20230612.114412-srg.jar%23258!/:?]
+		at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-1.20.1-47.1.79.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
+		at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:126) ~[loader-47.1.47.jar:47.1]
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:114) ~[loader-47.1.47.jar:47.1]
+		at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.runService(CommonClientLaunchHandler.java:24) ~[loader-47.1.47.jar:47.1]
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:108) ~[loader-47.1.47.jar:47.1]
+		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[02Nov2023 19:45:25.653] [Render thread/INFO] [ModernFix/]: Invalidating pack caches
+[02Nov2023 19:45:25.654] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, file/alpha_sounds_1.20.1-1.14.zip
+[02Nov2023 19:45:25.683] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$RegisterGeometryLoaders to a broken mod state
+[02Nov2023 19:45:25.692] [Worker-ResourceReload-15/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[02Nov2023 19:45:25.746] [Worker-ResourceReload-17/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.752] [Worker-ResourceReload-12/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.753] [Worker-ResourceReload-13/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.763] [Worker-ResourceReload-9/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.764] [Worker-ResourceReload-0/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.764] [Worker-ResourceReload-11/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.773] [Worker-ResourceReload-8/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.775] [Worker-ResourceReload-6/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.776] [Worker-ResourceReload-7/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.776] [Worker-ResourceReload-2/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.852] [Worker-ResourceReload-11/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.857] [Worker-ResourceReload-0/ERROR] [ModernFix/]: Using vanilla stitcher implementation due to invalid loading state
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=east,type=right,waterlogged=true'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=south,type=single,waterlogged=false'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=west,type=single,waterlogged=false'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=east,type=left,waterlogged=false'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=north,type=single,waterlogged=false'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=west,type=right,waterlogged=false'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=south,type=single,waterlogged=true'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=east,type=single,waterlogged=false'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=east,type=left,waterlogged=true'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=west,type=single,waterlogged=true'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=west,type=left,waterlogged=true'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=east,type=single,waterlogged=true'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=north,type=right,waterlogged=true'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=east,type=right,waterlogged=false'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=west,type=left,waterlogged=false'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=south,type=right,waterlogged=false'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=north,type=single,waterlogged=true'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=south,type=right,waterlogged=true'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=south,type=left,waterlogged=true'
+[02Nov2023 19:45:25.914] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=south,type=left,waterlogged=false'
+[02Nov2023 19:45:25.915] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=north,type=left,waterlogged=true'
+[02Nov2023 19:45:25.915] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=north,type=right,waterlogged=false'
+[02Nov2023 19:45:25.915] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=west,type=right,waterlogged=true'
+[02Nov2023 19:45:25.915] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/chest.json' missing model for variant: 'minecraft:chest#facing=north,type=left,waterlogged=false'
+[02Nov2023 19:45:25.947] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/ender_chest.json' missing model for variant: 'minecraft:ender_chest#facing=north,waterlogged=false'
+[02Nov2023 19:45:25.948] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/ender_chest.json' missing model for variant: 'minecraft:ender_chest#facing=east,waterlogged=false'
+[02Nov2023 19:45:25.948] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/ender_chest.json' missing model for variant: 'minecraft:ender_chest#facing=north,waterlogged=true'
+[02Nov2023 19:45:25.948] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/ender_chest.json' missing model for variant: 'minecraft:ender_chest#facing=west,waterlogged=false'
+[02Nov2023 19:45:25.948] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/ender_chest.json' missing model for variant: 'minecraft:ender_chest#facing=east,waterlogged=true'
+[02Nov2023 19:45:25.948] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/ender_chest.json' missing model for variant: 'minecraft:ender_chest#facing=south,waterlogged=true'
+[02Nov2023 19:45:25.948] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/ender_chest.json' missing model for variant: 'minecraft:ender_chest#facing=south,waterlogged=false'
+[02Nov2023 19:45:25.948] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/ender_chest.json' missing model for variant: 'minecraft:ender_chest#facing=west,waterlogged=true'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=north,type=left,waterlogged=false'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=south,type=single,waterlogged=false'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=west,type=single,waterlogged=false'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=north,type=right,waterlogged=true'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=east,type=right,waterlogged=true'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=west,type=left,waterlogged=true'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=west,type=single,waterlogged=true'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=east,type=right,waterlogged=false'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=north,type=right,waterlogged=false'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=south,type=left,waterlogged=false'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=east,type=left,waterlogged=true'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=east,type=single,waterlogged=true'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=east,type=left,waterlogged=false'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=south,type=left,waterlogged=true'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=east,type=single,waterlogged=false'
+[02Nov2023 19:45:25.954] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=south,type=right,waterlogged=false'
+[02Nov2023 19:45:25.955] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=west,type=left,waterlogged=false'
+[02Nov2023 19:45:25.955] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=north,type=single,waterlogged=true'
+[02Nov2023 19:45:25.955] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=south,type=right,waterlogged=true'
+[02Nov2023 19:45:25.955] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=north,type=single,waterlogged=false'
+[02Nov2023 19:45:25.955] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=south,type=single,waterlogged=true'
+[02Nov2023 19:45:25.955] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=west,type=right,waterlogged=true'
+[02Nov2023 19:45:25.955] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=north,type=left,waterlogged=true'
+[02Nov2023 19:45:25.955] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'nostalgic_tweaks:blockstates/trapped_chest.json' missing model for variant: 'minecraft:trapped_chest#facing=west,type=right,waterlogged=false'
+[02Nov2023 19:45:26.008] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:chest#inventory' referenced from: minecraft:chest#inventory: java.io.FileNotFoundException: nostalgic_tweaks:models/item/chest.json
+[02Nov2023 19:45:26.009] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:ender_chest#inventory' referenced from: minecraft:ender_chest#inventory: java.io.FileNotFoundException: nostalgic_tweaks:models/item/ender_chest.json
+[02Nov2023 19:45:26.010] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:trapped_chest#inventory' referenced from: minecraft:trapped_chest#inventory: java.io.FileNotFoundException: nostalgic_tweaks:models/item/trapped_chest.json
+[02Nov2023 19:45:26.011] [Worker-ResourceReload-6/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$RegisterAdditional to a broken mod state
+[02Nov2023 19:45:26.250] [Worker-ResourceReload-6/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$ModifyBakingResult to a broken mod state
+[02Nov2023 19:45:26.270] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event com.jozufozu.flywheel.event.GatherContextEvent to a broken mod state
+[02Nov2023 19:45:26.272] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[02Nov2023 19:45:26.294] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[02Nov2023 19:45:26.294] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[02Nov2023 19:45:26.304] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device JACK Default
+[02Nov2023 19:45:26.304] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[02Nov2023 19:45:26.305] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[02Nov2023 19:45:26.361] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[02Nov2023 19:45:26.368] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.368] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[02Nov2023 19:45:26.368] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.368] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[02Nov2023 19:45:26.368] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.368] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[02Nov2023 19:45:26.368] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.368] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[02Nov2023 19:45:26.370] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.370] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[02Nov2023 19:45:26.370] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.370] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[02Nov2023 19:45:26.370] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.370] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[02Nov2023 19:45:26.370] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.370] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[02Nov2023 19:45:26.370] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.370] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$BakingCompleted to a broken mod state
+[02Nov2023 19:45:26.426] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.427] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.478] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.478] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.480] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.480] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.481] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.481] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.484] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.485] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.487] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.489] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.489] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.490] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.490] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.490] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.490] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.490] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.490] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.496] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.496] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[02Nov2023 19:45:26.496] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$AddLayers to a broken mod state
+[02Nov2023 19:45:26.507] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[02Nov2023 19:45:26.519] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterShadersEvent to a broken mod state
+[02Nov2023 19:45:26.528] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[02Nov2023 19:45:26.529] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.529] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[02Nov2023 19:45:26.529] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.529] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[02Nov2023 19:45:26.529] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[02Nov2023 19:45:26.565] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 07531552-b8f7-47f0-a067-6c3e765c2918
+[02Nov2023 19:45:26.565] [Render thread/FATAL] [net.minecraftforge.client.loading.ClientModLoader/]: Crash report saved to /home/alfr/.config/com.modrinth.theseus/profiles/neoforge/crash-reports/crash-2023-11-02_19.45.26-fml.txt
+[02Nov2023 19:45:26.567] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 73b61bd3-f99f-4feb-9a08-b599ec576ac0
+[02Nov2023 19:45:28.568] [Render thread/WARN] [ModernFix/]: Game took 10.349 seconds to start

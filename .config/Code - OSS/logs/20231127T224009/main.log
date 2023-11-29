@@ -1,0 +1,11 @@
+2023-11-27 22:40:09.523 [info] update#setState disabled
+2023-11-27 22:40:09.524 [info] update#ctor - updates are disabled as there is no update URL
+2023-11-28 02:00:43.056 [info] Extension host with pid 1222276 exited with code: 0, signal: unknown.
+2023-11-28 02:00:43.058 [error] [UtilityProcess id: 2, type: extensionHost, pid: 1222276]: crashed with code 15 and reason 'killed'
+2023-11-28 02:00:43.068 [error] ptyHost terminated unexpectedly with code 15
+2023-11-28 02:00:43.069 [warning] [UtilityProcess type: ptyHost, pid: 1222216]: unable to kill the process
+2023-11-28 02:00:43.074 [info] Extension host with pid 1222217 exited with code: 15, signal: unknown.
+2023-11-28 02:00:43.074 [error] [UtilityProcess id: 1, type: extensionHost, pid: 1222217]: crashed with code 15 and reason 'killed'
+2023-11-28 02:00:43.084 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-11-28 02:00:43.084 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1222237]: crashed with code 15 and reason 'killed'
+2023-11-28 02:00:43.085 [error] [UtilityProcess type: shared-process, pid: 1222236]: crashed with code 15 and reason 'killed'
